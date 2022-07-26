@@ -1,4 +1,4 @@
-# ThinkPad T450s X250 T450 X1C3 Monterey OpenCore 0.8.0
+# ThinkPad T450s BigSur X Monterey OpenCore 0.8.2
 <img align="right" src="/picture/Thismachine.png" alt="Lenovo Thinkpad T450s macOS Hackintosh OpenCore" width="400">
 
 [![macOS](https://img.shields.io/badge/macOS-12.4-blue)](https://developer.apple.com/documentation/macos-release-notes)
@@ -7,7 +7,7 @@
 
 **DISCLAIMER:**
 
-### The author：[@CLAY-BIOS](https://github.com/CLAY-BIOS)  
+### The author：[@Grant07](https://github.com/Grant07)  
 Before you begin, read the entire readme file.
 I don't accept any responsibility for any damage that may be caused.
 If you find errors or have any improvements (whether in the configuration or in the document), consider opening an issue or a pull request.
@@ -28,20 +28,19 @@ It would mean a lot to me.
 - Docking support.
 - Sidecar support (Turning on sidecar will cause the system to freeze randomly, Sidecar is disabled by default).
 - This EFI (and other applications) works for all ThinkPads using 5th generation CPUs (Broadwell). Confirmed supported models are shown below.
-- support ThinkPad X250, T450, T450s, X1 Carbon 3rd.
-- Note: The 4th generation CPU (Haswell) is not supported. ThinkPad has never officially launched the 4th generation CPU (Haswell) T450, T450s, X250, X1C3, which are essentially T440, T440s, X240, X1C2.
+- support ThinkPad T450s.
 
 ## Hardware information
 ```  
 - CPU：Intel Core i7-5600U i7-5600U i7-5500u i5-5300U i5-5200U
 
-- Integrated grapics：Intel HD 5500 Graphics 
+- Integrated grapics：Intel HD 5500 Graphics
 
 - Sound card：ALC292
 
 - Wireless network card：DW1820A Intel7265AC IntelAX200 BCM943224 BCM94360Z3 BCM94360Z4 BCM94360CD BCM94360CS2
 
-- Note ⚠️： For ThinkPad x250, t450 and t450s, only BCM94360CD of Apple network card can be driven normally in win10, and other apple network cards cannot search any signal in win10.
+- Note ⚠️： Only BCM94360CD of Apple network card can be driven normally in win10, and other apple network cards cannot search any signal in win10.
 ```
 ## Installation
 
@@ -78,9 +77,9 @@ It would mean a lot to me.
 <details>  
 <summary><strong>What works ✅</strong></summary>
 </br>
- 
+
 - [x] CPU Power management
-- [x] Intel HD 5500 Graphics 
+- [x] Intel HD 5500 Graphics
 - [x] USB
 - [x] Camera
 - [x] Sleep/wake up/shut down/restart
@@ -89,8 +88,8 @@ It would mean a lot to me.
 - [x] iMessage, FaceTime, App Store, iTunes Store
 - [x] Speaker and headphone jack    
 - [x] Battery and complete battery information
-- [x] Keyboard maps and hotkeys with [ThinkpadAssistant](https://github.com/MSzturc/ThinkpadAssistant) 
-- [x] Trackpad, TrackPoint, and the physical button 
+- [x] Keyboard maps and hotkeys with [ThinkpadAssistant](https://github.com/MSzturc/ThinkpadAssistant)
+- [x] Trackpad, TrackPoint, and the physical button
 - [x] Touchscreen      (With multi-touch and touchscreen gestures)
 - [x] Mini DisplayPort
 - [x] SD card reader    
@@ -158,7 +157,7 @@ It would mean a lot to me.
 - ThinkPad X250 ThinkPad T450 ThinkPad T450s docking(40A1、40A2) station can be used normally.
 - Use of docking can cause sleep problems, the solution is to add SSDT-IGBE patch to config.plist->ACPI.
 - Flap mode cannot be used with SSDT-IGBE patch.
-- Up to three displays (including the built-in display) 
+- Up to three displays (including the built-in display)
 ![Docking](./picture/Docking.png)
 
 </details>
@@ -196,7 +195,7 @@ It would mean a lot to me.
 <summary><strong>Fan and LED controls (recommended; prevents overheating)</strong></summary>
 </br>
 
-1. Download and install [YogaSMC-App-Release.dmg](https://github.com/zhen-zen/YogaSMC/releases) 
+1. Download and install [YogaSMC-App-Release.dmg](https://github.com/zhen-zen/YogaSMC/releases)
 1. Install and open the application
 1. Choose "Auto" from the menubar icon
 1. Check the "Start at Login" option
@@ -213,25 +212,17 @@ It would mean a lot to me.
 
 </details>
 
-<details>  
-<summary><strong>Sidecar</strong></summary>
-</br>
-
-![Sidecar-1](./picture/Sidecar-1.png)
-
-</details>
-
-## Third hard disk 
+## Third hard disk
 <details>  
 <summary><strong>How to install the third hard drive  </strong></summary>
 </br>
 
-1. ThinkPad X250 ThinkPad T450 ThinkPad T450s Can expand the third hard drive.
-1. Purchase the third hard drive expansion board (pictured), which only supports single-sided M.2 2242 SATA SSD. 
+1. ThinkPad T450s Can expand the third hard drive.
+1. Purchase the third hard drive expansion board (pictured), which only supports single-sided M.2 2242 SATA SSD.
 ![SATA-1](./picture/SATA-1.png)
 1. Insert M.2 2242 SATA SSD。
 ![SATA-2](./picture/SATA-2.png)
-1. Install it under the battery. 
+1. Install it under the battery.
 ![SATA-3](./picture/SATA-3.png)
 
 </details>
@@ -241,18 +232,19 @@ It would mean a lot to me.
 </br>
 
 
-1. Insert the double-sided M.2 2242 SATA SSD into the expansion board. 
+1. Insert the double-sided M.2 2242 SATA SSD into the expansion board.
 ![SATA-4](./picture/SATA-4.png)
 1. Then gently press down on the SSD and gently lift the expansion board. (This requires a little patience) .
 ![SATA-5](./picture/SATA-5.png)
 ![SATA-6](./picture/SATA-6.png)
-1. Screw on the screws. 
+1. Screw on the screws.
 
 </details>
 
 # Credits
 
-- [@Sniki](https://github.com/Sniki?tab=repositories) 
+- [@CLAY-BIOS](https://github.com/CLAY-BIOS/Lenovo-ThinkPad-T450s-Hackintosh-OpenCore)
+- [@Sniki](https://github.com/Sniki?tab=repositories)
 - [@benbender](https://github.com/benbender/x1c6-hackintosh/blob/experimental/EFI/OC/dsl/SSDT-BATX.dsl) A new generation of battery patches.
 - [@zhen-zen](https://github.com/zhen-zen) for YogaSMC.
 - [daliansky](https://github.com/daliansky/OC-little) for various ACPI hotpatch samples.  
@@ -263,5 +255,3 @@ It would mean a lot to me.
 - [@0xFireWolf](https://github.com/0xFireWolf/RealtekCardReader) Card reader driver。
 
 The greatest thank you and appreciation to the [Acidanthera](https://github.com/acidanthera) team.
-
-Questions are welcome, but please don't ask too low - level questions.
