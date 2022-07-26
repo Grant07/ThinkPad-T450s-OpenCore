@@ -6,13 +6,10 @@
 [![ThinkPad](https://img.shields.io/badge/ThinkPad-T450s.X250.T450.X1C3-orange)](https://think.lenovo.com.cn/index.html)
 
 **DISCLAIMER:**
-
-### The author：[@Grant07](https://github.com/Grant07)  
+ 
 Before you begin, read the entire readme file.
 I don't accept any responsibility for any damage that may be caused.
 If you find errors or have any improvements (whether in the configuration or in the document), consider opening an issue or a pull request.
-If you find my work useful, consider clicking ⭐️Star in the upper right corner.
-It would mean a lot to me.
 
 
 ## Introduction
