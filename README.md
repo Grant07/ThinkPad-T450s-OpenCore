@@ -1,9 +1,9 @@
 # ThinkPad T450s BigSur X Monterey OpenCore 0.8.2
 <img align="right" src="/picture/Thismachine.png" alt="Lenovo Thinkpad T450s macOS Hackintosh OpenCore" width="400">
 
-[![macOS](https://img.shields.io/badge/macOS-12.4-blue)](https://developer.apple.com/documentation/macos-release-notes)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.8.0-green)](https://github.com/acidanthera/OpenCorePkg)
-[![ThinkPad](https://img.shields.io/badge/ThinkPad-T450s.X250.T450.X1C3-orange)](https://think.lenovo.com.cn/index.html)
+[![macOS](https://img.shields.io/badge/macOS-11.6.8-blue)](https://developer.apple.com/documentation/macos-release-notes)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.8.2-green)](https://github.com/acidanthera/OpenCorePkg)
+[![ThinkPad](https://img.shields.io/badge/ThinkPad-T450s-orange)](https://think.lenovo.com.cn/index.html)
 
 **DISCLAIMER:**
  
