@@ -1,4 +1,4 @@
-# ThinkPad T450s BigSur X Monterey OpenCore 0.8.2
+# ThinkPad T450s BigSur OpenCore 0.8.2
 <img align="right" src="/picture/Thismachine.png" alt="Lenovo Thinkpad T450s macOS Hackintosh OpenCore" width="400">
 
 [![macOS](https://img.shields.io/badge/macOS-11.6.8-blue)](https://developer.apple.com/documentation/macos-release-notes)
