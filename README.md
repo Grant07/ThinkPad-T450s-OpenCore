@@ -14,11 +14,10 @@ If you find errors or have any improvements (whether in the configuration or in 
 
 ## Introduction
 
-- This repository was originally created for ThinkPad T450s. The default network card is DW1820A, and some other models have been supported through subsequent updates.
+- The default network card is DW1820A, and some other models have been supported through subsequent updates.
 - Sound card default Layout-id = 32, if you hear noise upon connecting headphones, use the sound card repair script (ALCPlugFix), found in this repository.
 - If you want to use the audio interface on the Docking, set the layout-id of the sound card to 55 and select the line output.
 - Touchscreen support (With multi-touch and touchscreen gestures).
-- Monterey support.
 - Big Sur support.
 - Catalina support.
 - Mojave support.
